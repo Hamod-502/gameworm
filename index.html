@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة الدودة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="scoreDisplay">Score: 0</div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="controls">
+            <div class="joystick">
+                <div class="control-row">
+                    <button id="up" class="control-button arrow-btn">▲</button>
+                </div>
+                <div class="control-row">
+                    <button id="left" class="control-button arrow-btn">◄</button>
+                    <button id="down" class="control-button arrow-btn">▼</button>
+                    <button id="right" class="control-button arrow-btn">►</button>
+                </div>
+            </div>
+        </div>
+        <div id="modeSelection">
+            <button id="mode1Btn" class="action-btn">Mode 1</button>
+            <button id="mode2Btn" class="action-btn">Mode 2</button>
+        </div>
+        <button id="playBtn" class="action-btn" style="display: none;">PLAY</button>
+        <button id="againBtn" class="action-btn" style="display: none;">AGAIN</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
